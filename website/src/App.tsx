@@ -1,18 +1,10 @@
-import Nav from "./Nav";
-
-
-function MyButton() {
-  return (
-    <button>Hello, I'm a button.</button>
-  );
-}
+import Nav from "./components/Nav-components/Nav";
+import './App.css'
 
 export default function App() {
   return (
     <div>
       <Nav />
-      <h1>Welcome to my app!</h1>
-      <MyButton />
     </div>
   )
 }
