@@ -16,7 +16,7 @@ body {
 
 
  .Nav-list{
-  background-color: red;
+  background-color: #0f0f0f;
   display: flex;
   justify-content: space-around;
   align-items: center;

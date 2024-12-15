@@ -1,14 +1,16 @@
-
-
 .containers {
     display: flex;
     flex-direction: column;
     /* background-color: #205020; */
     font-size: 30px;
-    justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 800px;
+    justify-content: center;
+    height: 90vh;
+}
+
+.container-1, .container-2 {
+    display: flex;
+    justify-content: center;
 }
 
 .header {
@@ -18,6 +20,7 @@
 }
 
 .text {
+    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
